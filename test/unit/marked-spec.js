@@ -19,3 +19,20 @@ describe('Test heading ID functionality', function() {
     expect(header).toBe('<h1>test</h1>\n');
   });
 });
+
+describe('Base whatsapp-like marked', function () {
+  it('should have strong text', function() {
+    let text = marked('*hi*')
+    expect(text).toBe('<p><strong>hi</strong></p>\n')
+  })
+
+  it('should have italic text', function() {
+    let text = marked('_hi_')
+    expect(text).toBe('<p><em>hi</em></p>\n')
+  })
+
+  it('should have strong text', function() {
+    let text = marked('__hi__')
+    expect(text).toBe('<p><u>hi</u></p>\n')
+  })
+})
