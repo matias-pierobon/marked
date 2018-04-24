@@ -202,7 +202,7 @@
   {
     "end_line": 668,
     "section": "Thematic breaks",
-    "html": "<p><em>-</em></p>\n",
+    "html": "<p><strong>-</strong></p>\n",
     "markdown": " *-*\n",
     "example": 26,
     "start_line": 664
@@ -282,7 +282,7 @@
   {
     "end_line": 825,
     "section": "ATX headings",
-    "html": "<h1>foo <em>bar</em> *baz*</h1>\n",
+    "html": "<h1>foo <strong>bar</strong> *baz*</h1>\n",
     "markdown": "# foo *bar* \\*baz\\*\n",
     "example": 36,
     "start_line": 821
@@ -394,7 +394,7 @@
   {
     "end_line": 1013,
     "section": "Setext headings",
-    "html": "<h1>Foo <em>bar</em></h1>\n<h2>Foo <em>bar</em></h2>\n",
+    "html": "<h1>Foo <strong>bar</strong></h1>\n<h2>Foo <strong>bar</strong></h2>\n",
     "markdown": "Foo *bar*\n=========\n\nFoo *bar*\n---------\n",
     "example": 50,
     "start_line": 1004
@@ -402,7 +402,7 @@
   {
     "end_line": 1025,
     "section": "Setext headings",
-    "html": "<h1>Foo <em>bar\nbaz</em></h1>\n",
+    "html": "<h1>Foo <strong>bar\nbaz</strong></h1>\n",
     "markdown": "Foo *bar\nbaz*\n====\n",
     "example": 51,
     "start_line": 1018
@@ -954,7 +954,7 @@
   {
     "end_line": 2140,
     "section": "HTML blocks",
-    "html": "<DIV CLASS=\"foo\">\n<p><em>Markdown</em></p>\n</DIV>\n",
+    "html": "<DIV CLASS=\"foo\">\n<p><strong>Markdown</strong></p>\n</DIV>\n",
     "markdown": "<DIV CLASS=\"foo\">\n\n*Markdown*\n\n</DIV>\n",
     "example": 120,
     "start_line": 2130
@@ -978,7 +978,7 @@
   {
     "end_line": 2178,
     "section": "HTML blocks",
-    "html": "<div>\n*foo*\n<p><em>bar</em></p>\n",
+    "html": "<div>\n*foo*\n<p><strong>bar</strong></p>\n",
     "markdown": "<div>\n*foo*\n\n*bar*\n",
     "example": 123,
     "start_line": 2169
@@ -1074,7 +1074,7 @@
   {
     "end_line": 2334,
     "section": "HTML blocks",
-    "html": "<del>\n<p><em>foo</em></p>\n</del>\n",
+    "html": "<del>\n<p><strong>foo</strong></p>\n</del>\n",
     "markdown": "<del>\n\n*foo*\n\n</del>\n",
     "example": 135,
     "start_line": 2324
@@ -1082,7 +1082,7 @@
   {
     "end_line": 2346,
     "section": "HTML blocks",
-    "html": "<p><del><em>foo</em></del></p>\n",
+    "html": "<p><del><strong>foo</strong></del></p>\n",
     "markdown": "<del>*foo*</del>\n",
     "example": 136,
     "start_line": 2342
@@ -1138,7 +1138,7 @@
   {
     "end_line": 2469,
     "section": "HTML blocks",
-    "html": "<style>p{color:red;}</style>\n<p><em>foo</em></p>\n",
+    "html": "<style>p{color:red;}</style>\n<p><strong>foo</strong></p>\n",
     "markdown": "<style>p{color:red;}</style>\n*foo*\n",
     "example": 143,
     "start_line": 2463
@@ -1146,7 +1146,7 @@
   {
     "end_line": 2478,
     "section": "HTML blocks",
-    "html": "<!-- foo -->*bar*\n<p><em>baz</em></p>\n",
+    "html": "<!-- foo -->*bar*\n<p><strong>baz</strong></p>\n",
     "markdown": "<!-- foo -->*bar*\n*baz*\n",
     "example": 144,
     "start_line": 2472
@@ -1234,7 +1234,7 @@
   {
     "end_line": 2683,
     "section": "HTML blocks",
-    "html": "<div>\n<p><em>Emphasized</em> text.</p>\n</div>\n",
+    "html": "<div>\n<p><strong>Emphasized</strong> text.</p>\n</div>\n",
     "markdown": "<div>\n\n*Emphasized* text.\n\n</div>\n",
     "example": 155,
     "start_line": 2673
@@ -2330,7 +2330,7 @@
   {
     "end_line": 5436,
     "section": "Backslash escapes",
-    "html": "<p>\\<em>emphasis</em></p>\n",
+    "html": "<p>\\<strong>emphasis</strong></p>\n",
     "markdown": "\\\\*emphasis*\n",
     "example": 292,
     "start_line": 5432
@@ -2642,7 +2642,7 @@
   {
     "end_line": 6065,
     "section": "Emphasis and strong emphasis",
-    "html": "<p><em>foo bar</em></p>\n",
+    "html": "<p><strong>foo bar</strong></p>\n",
     "markdown": "*foo bar*\n",
     "example": 331,
     "start_line": 6061
@@ -2674,7 +2674,7 @@
   {
     "end_line": 6104,
     "section": "Emphasis and strong emphasis",
-    "html": "<p>foo<em>bar</em></p>\n",
+    "html": "<p>foo<strong>bar</strong></p>\n",
     "markdown": "foo*bar*\n",
     "example": 335,
     "start_line": 6100
@@ -2682,7 +2682,7 @@
   {
     "end_line": 6111,
     "section": "Emphasis and strong emphasis",
-    "html": "<p>5<em>6</em>78</p>\n",
+    "html": "<p>5<strong>6</strong>78</p>\n",
     "markdown": "5*6*78\n",
     "example": 336,
     "start_line": 6107
@@ -2786,7 +2786,7 @@
   {
     "end_line": 6238,
     "section": "Emphasis and strong emphasis",
-    "html": "<p><em>(<em>foo</em>)</em></p>\n",
+    "html": "<p><strong>(<strong>foo</strong>)</strong></p>\n",
     "markdown": "*(*foo*)*\n",
     "example": 349,
     "start_line": 6234
@@ -2794,7 +2794,7 @@
   {
     "end_line": 6247,
     "section": "Emphasis and strong emphasis",
-    "html": "<p><em>foo</em>bar</p>\n",
+    "html": "<p><strong>foo</strong>bar</p>\n",
     "markdown": "*foo*bar\n",
     "example": 350,
     "start_line": 6243
@@ -2859,7 +2859,7 @@
     "end_line": 6322,
     "section": "Emphasis and strong emphasis",
     "html": "<p><strong>foo bar</strong></p>\n",
-    "markdown": "**foo bar**\n",
+    "markdown": "*foo bar*\n",
     "example": 358,
     "start_line": 6318
   },
@@ -2883,14 +2883,14 @@
     "end_line": 6352,
     "section": "Emphasis and strong emphasis",
     "html": "<p>foo<strong>bar</strong></p>\n",
-    "markdown": "foo**bar**\n",
+    "markdown": "foo*bar*\n",
     "example": 361,
     "start_line": 6348
   },
   {
     "end_line": 6361,
     "section": "Emphasis and strong emphasis",
-    "html": "<p><strong>foo bar</strong></p>\n",
+    "html": "<p><u>foo bar</u></p>\n",
     "markdown": "__foo bar__\n",
     "example": 362,
     "start_line": 6357
@@ -2946,7 +2946,7 @@
   {
     "end_line": 6421,
     "section": "Emphasis and strong emphasis",
-    "html": "<p><strong>foo, <strong>bar</strong>, baz</strong></p>\n",
+    "html": "<p><u>foo, <u>bar</u>, baz</u></p>\n",
     "markdown": "__foo, __bar__, baz__\n",
     "example": 369,
     "start_line": 6417
@@ -2954,7 +2954,7 @@
   {
     "end_line": 6432,
     "section": "Emphasis and strong emphasis",
-    "html": "<p>foo-<strong>(bar)</strong></p>\n",
+    "html": "<p>foo-<u>(bar)</u></p>\n",
     "markdown": "foo-__(bar)__\n",
     "example": 370,
     "start_line": 6428
@@ -2979,7 +2979,7 @@
     "end_line": 6468,
     "section": "Emphasis and strong emphasis",
     "html": "<p><em>(<strong>foo</strong>)</em></p>\n",
-    "markdown": "*(**foo**)*\n",
+    "markdown": "_(*foo*)_\n",
     "example": 373,
     "start_line": 6464
   },
@@ -2987,7 +2987,7 @@
     "end_line": 6477,
     "section": "Emphasis and strong emphasis",
     "html": "<p><strong>Gomphocarpus (<em>Gomphocarpus physocarpus</em>, syn.\n<em>Asclepias physocarpa</em>)</strong></p>\n",
-    "markdown": "**Gomphocarpus (*Gomphocarpus physocarpus*, syn.\n*Asclepias physocarpa*)**\n",
+    "markdown": "*Gomphocarpus (_Gomphocarpus physocarpus_, syn.\n_Asclepias physocarpa_)*\n",
     "example": 374,
     "start_line": 6471
   },
@@ -2995,15 +2995,15 @@
     "end_line": 6484,
     "section": "Emphasis and strong emphasis",
     "html": "<p><strong>foo &quot;<em>bar</em>&quot; foo</strong></p>\n",
-    "markdown": "**foo \"*bar*\" foo**\n",
+    "markdown": "*foo \"_bar_\" foo*\n",
     "example": 375,
     "start_line": 6480
   },
   {
     "end_line": 6493,
-    "section": "Emphasis and strong emphasis",
-    "html": "<p><strong>foo</strong>bar</p>\n",
-    "markdown": "**foo**bar\n",
+    "section": "Emphasis and strong emphass",
+    "html": "<p><em>foo</em>bar</p>\n",
+    "markdown": "_foo_bar\n",
     "example": 376,
     "start_line": 6489
   },
@@ -3026,7 +3026,7 @@
   {
     "end_line": 6525,
     "section": "Emphasis and strong emphasis",
-    "html": "<p><em>(<strong>foo</strong>)</em></p>\n",
+    "html": "<p><em>(<u>foo</u>)</em></p>\n",
     "markdown": "_(__foo__)_\n",
     "example": 379,
     "start_line": 6521
@@ -3050,7 +3050,7 @@
   {
     "end_line": 6548,
     "section": "Emphasis and strong emphasis",
-    "html": "<p><strong>foo__bar__baz</strong></p>\n",
+    "html": "<p><u>foo__bar__baz</u></p>\n",
     "markdown": "__foo__bar__baz__\n",
     "example": 382,
     "start_line": 6544
@@ -3058,7 +3058,7 @@
   {
     "end_line": 6559,
     "section": "Emphasis and strong emphasis",
-    "html": "<p><strong>(bar)</strong>.</p>\n",
+    "html": "<p><u>(bar)</u>.</p>\n",
     "markdown": "__(bar)__.\n",
     "example": 383,
     "start_line": 6555
@@ -3067,7 +3067,7 @@
     "end_line": 6571,
     "section": "Emphasis and strong emphasis",
     "html": "<p><em>foo <a href=\"/url\">bar</a></em></p>\n",
-    "markdown": "*foo [bar](/url)*\n",
+    "markdown": "_foo [bar](/url)_\n",
     "example": 384,
     "start_line": 6567
   },
@@ -3075,14 +3075,14 @@
     "end_line": 6580,
     "section": "Emphasis and strong emphasis",
     "html": "<p><em>foo\nbar</em></p>\n",
-    "markdown": "*foo\nbar*\n",
+    "markdown": "_foo\nbar_\n",
     "example": 385,
     "start_line": 6574
   },
   {
     "end_line": 6590,
     "section": "Emphasis and strong emphasis",
-    "html": "<p><em>foo <strong>bar</strong> baz</em></p>\n",
+    "html": "<p><em>foo <u>bar</u> baz</em></p>\n",
     "markdown": "_foo __bar__ baz_\n",
     "example": 386,
     "start_line": 6586
@@ -3106,7 +3106,7 @@
   {
     "end_line": 6611,
     "section": "Emphasis and strong emphasis",
-    "html": "<p><em>foo <em>bar</em></em></p>\n",
+    "html": "<p><strong>foo <strong>bar</strong></strong></p>\n",
     "markdown": "*foo *bar**\n",
     "example": 389,
     "start_line": 6607
@@ -3114,8 +3114,8 @@
   {
     "end_line": 6618,
     "section": "Emphasis and strong emphasis",
-    "html": "<p><em>foo <strong>bar</strong> baz</em></p>\n",
-    "markdown": "*foo **bar** baz*\n",
+    "html": "<p><strong>foo <em>bar</em> baz</strong></p>\n",
+    "markdown": "*foo _bar_ baz*\n",
     "example": 390,
     "start_line": 6614
   },
@@ -3123,7 +3123,7 @@
     "end_line": 6624,
     "section": "Emphasis and strong emphasis",
     "html": "<p><em>foo<strong>bar</strong>baz</em></p>\n",
-    "markdown": "*foo**bar**baz*\n",
+    "markdown": "_foo*bar*baz_\n",
     "example": 391,
     "start_line": 6620
   },
@@ -3131,7 +3131,7 @@
     "end_line": 6649,
     "section": "Emphasis and strong emphasis",
     "html": "<p><em><strong>foo</strong> bar</em></p>\n",
-    "markdown": "***foo** bar*\n",
+    "markdown": "_*foo* bar_\n",
     "example": 392,
     "start_line": 6645
   },
@@ -3139,7 +3139,7 @@
     "end_line": 6656,
     "section": "Emphasis and strong emphasis",
     "html": "<p><em>foo <strong>bar</strong></em></p>\n",
-    "markdown": "*foo **bar***\n",
+    "markdown": "_foo *bar*_\n",
     "example": 393,
     "start_line": 6652
   },
@@ -3147,7 +3147,7 @@
     "end_line": 6663,
     "section": "Emphasis and strong emphasis",
     "html": "<p><em>foo<strong>bar</strong></em></p>\n",
-    "markdown": "*foo**bar***\n",
+    "markdown": "_foo*bar*_\n",
     "example": 394,
     "start_line": 6659
   },
@@ -3155,14 +3155,14 @@
     "end_line": 6672,
     "section": "Emphasis and strong emphasis",
     "html": "<p><em>foo <strong>bar <em>baz</em> bim</strong> bop</em></p>\n",
-    "markdown": "*foo **bar *baz* bim** bop*\n",
+    "markdown": "_foo *bar _baz_ bim* bop_\n",
     "example": 395,
     "start_line": 6668
   },
   {
     "end_line": 6679,
     "section": "Emphasis and strong emphasis",
-    "html": "<p><em>foo <a href=\"/url\"><em>bar</em></a></em></p>\n",
+    "html": "<p><strong>foo <a href=\"/url\"><strong>bar</strong></a></strong></p>\n",
     "markdown": "*foo [*bar*](/url)*\n",
     "example": 396,
     "start_line": 6675
@@ -3178,7 +3178,7 @@
   {
     "end_line": 6695,
     "section": "Emphasis and strong emphasis",
-    "html": "<p>**** is not an empty strong emphasis</p>\n",
+    "html": "<p><strong>**</strong> is not an empty strong emphasis</p>\n",
     "markdown": "**** is not an empty strong emphasis\n",
     "example": 398,
     "start_line": 6691
@@ -3187,7 +3187,7 @@
     "end_line": 6708,
     "section": "Emphasis and strong emphasis",
     "html": "<p><strong>foo <a href=\"/url\">bar</a></strong></p>\n",
-    "markdown": "**foo [bar](/url)**\n",
+    "markdown": "*foo [bar](/url)*\n",
     "example": 399,
     "start_line": 6704
   },
@@ -3195,14 +3195,14 @@
     "end_line": 6717,
     "section": "Emphasis and strong emphasis",
     "html": "<p><strong>foo\nbar</strong></p>\n",
-    "markdown": "**foo\nbar**\n",
+    "markdown": "*foo\nbar*\n",
     "example": 400,
     "start_line": 6711
   },
   {
     "end_line": 6727,
     "section": "Emphasis and strong emphasis",
-    "html": "<p><strong>foo <em>bar</em> baz</strong></p>\n",
+    "html": "<p><u>foo <em>bar</em> baz</u></p>\n",
     "markdown": "__foo _bar_ baz__\n",
     "example": 401,
     "start_line": 6723
@@ -3210,7 +3210,7 @@
   {
     "end_line": 6734,
     "section": "Emphasis and strong emphasis",
-    "html": "<p><strong>foo <strong>bar</strong> baz</strong></p>\n",
+    "html": "<p><u>foo <u>bar</u> baz</u></p>\n",
     "markdown": "__foo __bar__ baz__\n",
     "example": 402,
     "start_line": 6730
@@ -3218,7 +3218,7 @@
   {
     "end_line": 6741,
     "section": "Emphasis and strong emphasis",
-    "html": "<p><strong><strong>foo</strong> bar</strong></p>\n",
+    "html": "<p><u><u>foo</u> bar</u></p>\n",
     "markdown": "____foo__ bar__\n",
     "example": 403,
     "start_line": 6737
@@ -3227,7 +3227,7 @@
     "end_line": 6748,
     "section": "Emphasis and strong emphasis",
     "html": "<p><strong>foo <strong>bar</strong></strong></p>\n",
-    "markdown": "**foo **bar****\n",
+    "markdown": "*foo *bar**\n",
     "example": 404,
     "start_line": 6744
   },
@@ -3235,15 +3235,15 @@
     "end_line": 6755,
     "section": "Emphasis and strong emphasis",
     "html": "<p><strong>foo <em>bar</em> baz</strong></p>\n",
-    "markdown": "**foo *bar* baz**\n",
+    "markdown": "*foo _bar_ baz*\n",
     "example": 405,
     "start_line": 6751
   },
   {
     "end_line": 6762,
     "section": "Emphasis and strong emphasis",
-    "html": "<p><strong>foo<em>bar</em>baz</strong></p>\n",
-    "markdown": "**foo*bar*baz**\n",
+    "html": "<p><strong>foo_bar_baz</strong></p>\n",
+    "markdown": "*foo_bar_baz*\n",
     "example": 406,
     "start_line": 6758
   },
@@ -3251,7 +3251,7 @@
     "end_line": 6769,
     "section": "Emphasis and strong emphasis",
     "html": "<p><strong><em>foo</em> bar</strong></p>\n",
-    "markdown": "***foo* bar**\n",
+    "markdown": "*_foo_ bar*\n",
     "example": 407,
     "start_line": 6765
   },
@@ -3259,7 +3259,7 @@
     "end_line": 6776,
     "section": "Emphasis and strong emphasis",
     "html": "<p><strong>foo <em>bar</em></strong></p>\n",
-    "markdown": "**foo *bar***\n",
+    "markdown": "*foo _bar_*\n",
     "example": 408,
     "start_line": 6772
   },
@@ -3267,7 +3267,7 @@
     "end_line": 6787,
     "section": "Emphasis and strong emphasis",
     "html": "<p><strong>foo <em>bar <strong>baz</strong>\nbim</em> bop</strong></p>\n",
-    "markdown": "**foo *bar **baz**\nbim* bop**\n",
+    "markdown": "*foo _bar *baz*\nbim_ bop*\n",
     "example": 409,
     "start_line": 6781
   },
@@ -3275,7 +3275,7 @@
     "end_line": 6794,
     "section": "Emphasis and strong emphasis",
     "html": "<p><strong>foo <a href=\"/url\"><em>bar</em></a></strong></p>\n",
-    "markdown": "**foo [*bar*](/url)**\n",
+    "markdown": "*foo [_bar_](/url)*\n",
     "example": 410,
     "start_line": 6790
   },
@@ -3298,7 +3298,7 @@
   {
     "end_line": 6820,
     "section": "Emphasis and strong emphasis",
-    "html": "<p>foo ***</p>\n",
+    "html": "<p>foo <strong>*<strong></p>\n",
     "markdown": "foo ***\n",
     "example": 413,
     "start_line": 6816
@@ -3306,7 +3306,7 @@
   {
     "end_line": 6827,
     "section": "Emphasis and strong emphasis",
-    "html": "<p>foo <em>*</em></p>\n",
+    "html": "<p>foo <strong>*</strong></p>\n",
     "markdown": "foo *\\**\n",
     "example": 414,
     "start_line": 6823
@@ -3314,7 +3314,7 @@
   {
     "end_line": 6834,
     "section": "Emphasis and strong emphasis",
-    "html": "<p>foo <em>_</em></p>\n",
+    "html": "<p>foo <strong>_</strong></p>\n",
     "markdown": "foo *_*\n",
     "example": 415,
     "start_line": 6830
@@ -3331,7 +3331,7 @@
     "end_line": 6848,
     "section": "Emphasis and strong emphasis",
     "html": "<p>foo <strong>*</strong></p>\n",
-    "markdown": "foo **\\***\n",
+    "markdown": "foo *\\**\n",
     "example": 417,
     "start_line": 6844
   },
@@ -3339,14 +3339,14 @@
     "end_line": 6855,
     "section": "Emphasis and strong emphasis",
     "html": "<p>foo <strong>_</strong></p>\n",
-    "markdown": "foo **_**\n",
+    "markdown": "foo *_*\n",
     "example": 418,
     "start_line": 6851
   },
   {
     "end_line": 6866,
     "section": "Emphasis and strong emphasis",
-    "html": "<p>*<em>foo</em></p>\n",
+    "html": "<p>*<strong>foo</strong></p>\n",
     "markdown": "**foo*\n",
     "example": 419,
     "start_line": 6862
@@ -3354,7 +3354,7 @@
   {
     "end_line": 6873,
     "section": "Emphasis and strong emphasis",
-    "html": "<p><em>foo</em>*</p>\n",
+    "html": "<p><strong>foo</strong>*</p>\n",
     "markdown": "*foo**\n",
     "example": 420,
     "start_line": 6869
@@ -3363,14 +3363,14 @@
     "end_line": 6880,
     "section": "Emphasis and strong emphasis",
     "html": "<p>*<strong>foo</strong></p>\n",
-    "markdown": "***foo**\n",
+    "markdown": "**foo*\n",
     "example": 421,
     "start_line": 6876
   },
   {
     "end_line": 6887,
     "section": "Emphasis and strong emphasis",
-    "html": "<p>***<em>foo</em></p>\n",
+    "html": "<p>***<strong>foo</strong></p>\n",
     "markdown": "****foo*\n",
     "example": 422,
     "start_line": 6883
@@ -3379,14 +3379,14 @@
     "end_line": 6894,
     "section": "Emphasis and strong emphasis",
     "html": "<p><strong>foo</strong>*</p>\n",
-    "markdown": "**foo***\n",
+    "markdown": "*foo**\n",
     "example": 423,
     "start_line": 6890
   },
   {
     "end_line": 6901,
     "section": "Emphasis and strong emphasis",
-    "html": "<p><em>foo</em>***</p>\n",
+    "html": "<p><strong>foo</strong>***</p>\n",
     "markdown": "*foo****\n",
     "example": 424,
     "start_line": 6897
@@ -3426,7 +3426,7 @@
   {
     "end_line": 6939,
     "section": "Emphasis and strong emphasis",
-    "html": "<p>foo <strong>_</strong></p>\n",
+    "html": "<p>foo <u>_</u></p>\n",
     "markdown": "foo __\\___\n",
     "example": 429,
     "start_line": 6935
@@ -3434,7 +3434,7 @@
   {
     "end_line": 6946,
     "section": "Emphasis and strong emphasis",
-    "html": "<p>foo <strong>*</strong></p>\n",
+    "html": "<p>foo <u>*</u></p>\n",
     "markdown": "foo __*__\n",
     "example": 430,
     "start_line": 6942
@@ -3458,7 +3458,7 @@
   {
     "end_line": 6971,
     "section": "Emphasis and strong emphasis",
-    "html": "<p>_<strong>foo</strong></p>\n",
+    "html": "<p>_<u>foo</u></p>\n",
     "markdown": "___foo__\n",
     "example": 433,
     "start_line": 6967
@@ -3474,7 +3474,7 @@
   {
     "end_line": 6985,
     "section": "Emphasis and strong emphasis",
-    "html": "<p><strong>foo</strong>_</p>\n",
+    "html": "<p><u>foo</u>_</p>\n",
     "markdown": "__foo___\n",
     "example": 435,
     "start_line": 6981
@@ -3491,14 +3491,14 @@
     "end_line": 7002,
     "section": "Emphasis and strong emphasis",
     "html": "<p><strong>foo</strong></p>\n",
-    "markdown": "**foo**\n",
+    "markdown": "*foo*\n",
     "example": 437,
     "start_line": 6998
   },
   {
     "end_line": 7009,
     "section": "Emphasis and strong emphasis",
-    "html": "<p><em><em>foo</em></em></p>\n",
+    "html": "<p><strong><em>foo</em></strong></p>\n",
     "markdown": "*_foo_*\n",
     "example": 438,
     "start_line": 7005
@@ -3506,7 +3506,7 @@
   {
     "end_line": 7016,
     "section": "Emphasis and strong emphasis",
-    "html": "<p><strong>foo</strong></p>\n",
+    "html": "<p><u>foo</u></p>\n",
     "markdown": "__foo__\n",
     "example": 439,
     "start_line": 7012
@@ -3514,7 +3514,7 @@
   {
     "end_line": 7023,
     "section": "Emphasis and strong emphasis",
-    "html": "<p><em><em>foo</em></em></p>\n",
+    "html": "<p><em><strong>foo</strong></em></p>\n",
     "markdown": "_*foo*_\n",
     "example": 440,
     "start_line": 7019
@@ -3523,14 +3523,14 @@
     "end_line": 7033,
     "section": "Emphasis and strong emphasis",
     "html": "<p><strong><strong>foo</strong></strong></p>\n",
-    "markdown": "****foo****\n",
+    "markdown": "**foo**\n",
     "example": 441,
     "start_line": 7029
   },
   {
     "end_line": 7040,
     "section": "Emphasis and strong emphasis",
-    "html": "<p><strong><strong>foo</strong></strong></p>\n",
+    "html": "<p><u><u>foo</u></u></p>\n",
     "markdown": "____foo____\n",
     "example": 442,
     "start_line": 7036
@@ -3539,22 +3539,22 @@
     "end_line": 7051,
     "section": "Emphasis and strong emphasis",
     "html": "<p><strong><strong><strong>foo</strong></strong></strong></p>\n",
-    "markdown": "******foo******\n",
+    "markdown": "***foo***\n",
     "example": 443,
     "start_line": 7047
   },
   {
     "end_line": 7060,
     "section": "Emphasis and strong emphasis",
-    "html": "<p><em><strong>foo</strong></em></p>\n",
-    "markdown": "***foo***\n",
+    "html": "<p><em><u>foo</u></em></p>\n",
+    "markdown": "___foo___*\n",
     "example": 444,
     "start_line": 7056
   },
   {
     "end_line": 7067,
     "section": "Emphasis and strong emphasis",
-    "html": "<p><em><strong><strong>foo</strong></strong></em></p>\n",
+    "html": "<p><em><u><u>foo</u></u></em></p>\n",
     "markdown": "_____foo_____\n",
     "example": 445,
     "start_line": 7063
@@ -3562,7 +3562,7 @@
   {
     "end_line": 7076,
     "section": "Emphasis and strong emphasis",
-    "html": "<p><em>foo _bar</em> baz_</p>\n",
+    "html": "<p><strong>foo _bar</strong> baz_</p>\n",
     "markdown": "*foo _bar* baz_\n",
     "example": 446,
     "start_line": 7072
@@ -3570,7 +3570,7 @@
   {
     "end_line": 7083,
     "section": "Emphasis and strong emphasis",
-    "html": "<p><em>foo <strong>bar *baz bim</strong> bam</em></p>\n",
+    "html": "<p><strong>foo <u>bar *baz bim</u> bam</strong></p>\n",
     "markdown": "*foo __bar *baz bim__ bam*\n",
     "example": 447,
     "start_line": 7079
@@ -3579,14 +3579,14 @@
     "end_line": 7092,
     "section": "Emphasis and strong emphasis",
     "html": "<p>**foo <strong>bar baz</strong></p>\n",
-    "markdown": "**foo **bar baz**\n",
+    "markdown": "**foo *bar baz*\n",
     "example": 448,
     "start_line": 7088
   },
   {
     "end_line": 7099,
     "section": "Emphasis and strong emphasis",
-    "html": "<p>*foo <em>bar baz</em></p>\n",
+    "html": "<p>*foo <strong>bar baz</strong></p>\n",
     "markdown": "*foo *bar baz*\n",
     "example": 449,
     "start_line": 7095
@@ -3634,7 +3634,7 @@
   {
     "end_line": 7143,
     "section": "Emphasis and strong emphasis",
-    "html": "<p><em>a <code>*</code></em></p>\n",
+    "html": "<p><strong>a <code>*</code></strong></p>\n",
     "markdown": "*a `*`*\n",
     "example": 455,
     "start_line": 7139
@@ -3891,7 +3891,7 @@
     "end_line": 7526,
     "section": "Links",
     "html": "<p><a href=\"/uri\">link <em>foo <strong>bar</strong> <code>#</code></em></a></p>\n",
-    "markdown": "[link *foo **bar** `#`*](/uri)\n",
+    "markdown": "[link _foo *bar* `#`_](/uri)\n",
     "example": 487,
     "start_line": 7522
   },
@@ -3914,7 +3914,7 @@
   {
     "end_line": 7549,
     "section": "Links",
-    "html": "<p>[foo <em>[bar <a href=\"/uri\">baz</a>](/uri)</em>](/uri)</p>\n",
+    "html": "<p>[foo <strong>[bar <a href=\"/uri\">baz</a>](/uri)</strong>](/uri)</p>\n",
     "markdown": "[foo *[bar [baz](/uri)](/uri)*](/uri)\n",
     "example": 490,
     "start_line": 7545
@@ -3946,7 +3946,7 @@
   {
     "end_line": 7583,
     "section": "Links",
-    "html": "<p><em>foo [bar</em> baz]</p>\n",
+    "html": "<p><strong>foo [bar</strong> baz]</p>\n",
     "markdown": "*foo [bar* baz]\n",
     "example": 494,
     "start_line": 7579
@@ -4003,7 +4003,7 @@
     "end_line": 7682,
     "section": "Links",
     "html": "<p><a href=\"/uri\">link <em>foo <strong>bar</strong> <code>#</code></em></a></p>\n",
-    "markdown": "[link *foo **bar** `#`*][ref]\n\n[ref]: /uri\n",
+    "markdown": "[link _foo *bar* `#`_][ref]\n\n[ref]: /uri\n",
     "example": 501,
     "start_line": 7676
   },
@@ -4026,7 +4026,7 @@
   {
     "end_line": 7711,
     "section": "Links",
-    "html": "<p>[foo <em>bar <a href=\"/uri\">baz</a></em>]<a href=\"/uri\">ref</a></p>\n",
+    "html": "<p>[foo <strong>bar <a href=\"/uri\">baz</a></strong>]<a href=\"/uri\">ref</a></p>\n",
     "markdown": "[foo *bar [baz][ref]*][ref]\n\n[ref]: /uri\n",
     "example": 504,
     "start_line": 7705
@@ -4194,7 +4194,7 @@
   {
     "end_line": 7983,
     "section": "Links",
-    "html": "<p><a href=\"/url\" title=\"title\"><em>foo</em> bar</a></p>\n",
+    "html": "<p><a href=\"/url\" title=\"title\"><strong>foo</strong> bar</a></p>\n",
     "markdown": "[*foo* bar][]\n\n[*foo* bar]: /url \"title\"\n",
     "example": 525,
     "start_line": 7977
@@ -4226,7 +4226,7 @@
   {
     "end_line": 8036,
     "section": "Links",
-    "html": "<p><a href=\"/url\" title=\"title\"><em>foo</em> bar</a></p>\n",
+    "html": "<p><a href=\"/url\" title=\"title\"><strong>foo</strong> bar</a></p>\n",
     "markdown": "[*foo* bar]\n\n[*foo* bar]: /url \"title\"\n",
     "example": 529,
     "start_line": 8030
@@ -4234,7 +4234,7 @@
   {
     "end_line": 8045,
     "section": "Links",
-    "html": "<p>[<a href=\"/url\" title=\"title\"><em>foo</em> bar</a>]</p>\n",
+    "html": "<p>[<a href=\"/url\" title=\"title\"><strong>foo</strong> bar</a>]</p>\n",
     "markdown": "[[*foo* bar]]\n\n[*foo* bar]: /url \"title\"\n",
     "example": 530,
     "start_line": 8039
@@ -4874,7 +4874,7 @@
   {
     "end_line": 8932,
     "section": "Hard line breaks",
-    "html": "<p><em>foo<br />\nbar</em></p>\n",
+    "html": "<p><strong>foo<br />\nbar</strong></p>\n",
     "markdown": "*foo  \nbar*\n",
     "example": 610,
     "start_line": 8926
@@ -4882,7 +4882,7 @@
   {
     "end_line": 8941,
     "section": "Hard line breaks",
-    "html": "<p><em>foo<br />\nbar</em></p>\n",
+    "html": "<p><strong>foo<br />\nbar</strong></p>\n",
     "markdown": "*foo\\\nbar*\n",
     "example": 611,
     "start_line": 8935
